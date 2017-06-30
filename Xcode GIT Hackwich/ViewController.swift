@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func onButtonTapped(_ sender: Any) {
+        print("button was tapped")
+    }
 
 
 }
